@@ -5,7 +5,7 @@
 	"main": "dist/bamboo.min.css",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/rilwis/bamboo.git"
+		"url": "git+https://github.com/edoardob90/bamboo.git"
 	},
 	"keywords": [
 		"css",
