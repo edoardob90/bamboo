@@ -22,6 +22,7 @@
 	"homepage": "https://github.com/rilwis/bamboo",
 	"scripts": {
 		"main": "sass --no-source-map --style compressed src/main.scss dist/bamboo.min.css",
+		"debug": "sass --no-source-map src/main.scss dist/bamboo.debug.css",
 		"dark": "sass --no-source-map --style compressed src/dark.scss dist/dark.min.css",
 		"light": "sass --no-source-map --style compressed src/light.scss dist/light.min.css",
 		"start": "yarn main && yarn dark && yarn light"

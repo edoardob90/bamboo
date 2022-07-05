@@ -1,12 +1,11 @@
-$font-family-base: valkyrie_ot_b, serif;
+// $font-family-base: valkyrie_ot_b, serif;
 //default: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
-$font-family-heading: $font-family-base;
-$font-family-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-
+// $font-family-heading: $font-family-base;
+// $font-family-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 :root {
-	--b-font-main: $font-family-base;
-	--b-font-mono: $font-family-mono;
-	--b-font-heading: $font-family-heading;
+	--b-font-main: valkyrie_ot_b, serif;
+	--b-font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+	--b-font-heading: valkyrie_ot_b, serif;
 
 	--b-txt: #2e3440;
 	--b-bg-1: #fff;
